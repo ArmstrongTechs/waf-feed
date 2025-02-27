@@ -1,29 +1,37 @@
-# 🔥 WAF Feeds
+# 🚀 WAF Feeds - IP Blacklist
 
 [![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Last Update](https://img.shields.io/github/last-commit/your-repo/waf-feeds)](https://github.com/your-repo/waf-feeds)
+[![Last Update](https://img.shields.io/github/last-commit/ArmstrongTechs/waf-feed)](https://github.com/ArmstrongTechs/waf-feed)
+[![GitHub Repo stars](https://img.shields.io/github/stars/ArmstrongTechs/waf-feed?style=social)](https://github.com/ArmstrongTechs/waf-feed)
 
-A curated list of Web Application Firewall (WAF) feeds for enhanced security monitoring and protection.  
+A constantly updated list of **malicious IP addresses** for Web Application Firewall (WAF) configurations.
 
 ---
 
-## 🚀 Introduction
-Web Application Firewalls (WAF) help protect applications from common threats like SQL injection, XSS, and bot attacks. This repository provides a collection of WAF feeds to improve security monitoring and automation.
+## 📖 About
+
+This repository contains a list of **blacklisted IP addresses** known for malicious activities such as:
+- 🔥 **Brute-force attacks**
+- 🕵️‍♂️ **DDoS & Botnet activities**
+- 🎭 **Spamming & Phishing**
+- 🚨 **Scanning & Exploitation attempts**
 
 ---
 
 ## 📂 Repository Structure
 
-| File               | Description |
-|--------------------|------------|
-| `waf-feeds.txt`   | A list of real-time WAF feeds collected from various sources. |
-| `LICENSE`         | The MIT License for usage terms. |
-| `README.md`       | Documentation and usage instructions. |
+| File             | Description                                        |
+|------------------|----------------------------------------------------|
+| `waf-feeds.txt`  | A list of blacklisted IPs updated frequently.     |
+| `LICENSE`        | The MIT License for usage terms.                   |
+| `README.md`      | Documentation and usage instructions.              |
 
 ---
 
-## 📥 Fetching WAF Feeds
-To download the latest feeds, use:
+## 📥 How to Use
+
+### 🔹 1. Download the latest blacklist
+You can manually fetch the latest **IP blacklist** using:
 
 ```bash
-wget -O waf-feeds.txt https://raw.githubusercontent.com/your-repo/waf-feeds/main/waf-feeds.txt
+wget -O waf-feeds.txt https://raw.githubusercontent.com/ArmstrongTechs/waf-feed/main/waf-feeds.txt
