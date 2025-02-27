@@ -1,1 +1,1 @@
-# waf-feed
+# WAF-feeds
